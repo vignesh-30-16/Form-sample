@@ -1,0 +1,177 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title>Covid - 19  Referal Form</title>
+
+<style>
+.body{
+   
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+.main-section {
+ 
+  
+  width: 400px;
+  padding: 3px;
+  border: center solid;
+  height: 100%;
+}
+
+
+.first{
+    border-radius: 0%;
+    box-sizing: border-box;
+    background-color: slategrey;
+    border: 2px solid;
+    border-color: rgb(223, 15, 15);
+    padding: 4px;
+    margin: 3px;
+}
+.head{
+    background-color: blueviolet;
+    background-image: url("./download.jpeg");
+text-align: center;
+}
+.second{
+    border-radius: 0%;
+    box-sizing: border-box;
+    background-color: gold;
+    border: 2px solid;
+    border-color: rgb(223, 15, 15);
+    padding: 4px;
+    margin: 3px;
+}
+.thrid{
+    border-radius: 0%;
+    box-sizing: border-box;
+    background-color: grey;
+    border: 2px solid;
+    border-color: rgb(223, 15, 15);
+    padding: 4px;
+    margin: 3px;   
+}
+.four{
+border-radius: 0%;
+    box-sizing: border-box;
+    background-color: plum;
+    border: 2px solid;
+    border-color: rgb(223, 15, 15);
+    padding: 4px;
+    margin: 3px;
+}
+.five{
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 2px;
+    margin-bottom: 4px;
+}
+</style>
+</head>
+
+<body class="body">
+
+<div class="main-section">
+<header class="head"><h1>Covid - 19  Referal Form</h1></header>
+
+<form action="./new.html">
+    
+<div class="first">
+    <h3>Personal Details:-</h3>
+<label for="fname">First name :</label>
+<input type="text" name="fname" id="fname" required placeholder="enter name"><br><br>
+<label for="lname">Last name :</label>
+<input type="text" name="lname" id="lname" required placeholder="enter name"><br><br>
+<label for="age">Age:</label>
+<input type="Number" name="age" id="age" required placeholder="enter age" min="16" max="90"><br><br>
+<label for="dob">Date Of Birth:</label>
+<input type="date" name="dob" id="dob" required><br><br>
+<label for="">Patient in quarantine facility :</label>
+<label for="yes">Yes</label>
+<input type="radio" name="Patient in quarantine facility :" id="yes" value="yes" required>
+<label for="no">no</label>
+<input type="radio" name="Patient in quarantine facility :" id="no" value="no" required><br><br>
+<label for="Blood-group">Blood-group:-</label>
+<select name="Blood-group" id="Blood-group">
+<option value="o+">o+</option>
+<option value="A+">A+</option>
+<option value="B+">B+</option>
+<option value="A-">A-</option>
+<option value="B-">B-</option>
+<option value="o-">O-</option>
+<option value="AB-">AB-</option><br><br>
+</select><br><br>
+<label for="village / Town">village / Town:</label>
+<input type="text" name="village / Town" id="village / Town" required placeholder="village / Town"><br><br>
+<label for="District">District:</label>
+<input type="text" name="District / Town" id="District" required placeholder="District"><br><br>
+<label for="State">State:</label>
+<input type="text" name="State" id="State" required placeholder="State"><br><br>
+<label for="Nationality">Nationality:</label>
+<input type="text" name="Nationality" id="Nationality" required placeholder="Nationality"><br><br>
+<label for="phone">Phone Number:</label>
+<input type="tel" name="phone" id="phone"  placeholder="123-456-7890" required><br><br>
+<label for="address">Patient’s address:</label>
+<textarea name="address" id="address"  placeholder=enterAddress cols="20" rows="3" ></textarea><br><br>
+<label for="Pincode">Pincode :</label>
+<input type="Pincode" name="Pincode" id="Pincode" maxlength="6" minlength="0"  placeholder="600000" required><br><br>
+<label for="Aadhar">Aadhar Number :</label>
+<input type="text" name="Aadhar" id="Aadhar" maxlength="12" minlength="0"  placeholder="1234-5678-9011" required><br><br>
+<label for="upload">Upload your Aadhar file :</label>
+<input type="file" name="Upload" id="Upload" required><br><br>
+<label for="Passport">Passport Number :</label>
+<input type="text" name="Passport" id="Passport"  placeholder="6000000090000" required><br><br>
+</div>
+<div class="second">
+    <h3>Medical Information</h3>
+      <h3>Symptoms</h3>
+      <label for="cough">cough</label>
+      <input type="checkbox" name="cough" id="cough">
+      <label for="diarrhea">diarrhea</label>
+      <input type="checkbox" name="diarrhea" id="diarrhea">
+      <label for="Vomiting">Vomiting</label>
+      <input type="checkbox" name="Vomiting" id="Vomiting">
+      <label for="Fever">Fever</label>
+      <input type="checkbox" name="Fever" id="Fever">
+      <label for="Abdominal">Abdominal pain</label>
+      <input type="checkbox" name="Abdominal" id="Abdominal">
+      <label for="Breathlessness">Breathlessness</label>
+      <input type="checkbox" name="Breathlessness" id="Breathlessness">
+    </div>
+    <div class="thrid">
+        <h4>Hospitalization</h4>
+        <label for="Hospitalized">Hospitalized</label>
+        <label for="yes">Yes</label>
+        <input type="radio" name="Hospitalized" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="radio" name="Hospitalized" id="no" value="no"><br><br>
+        <label for="date">Hospitalization date</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="name"> Hospital Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="address">Hospital Address</label>
+        <textarea name="address" id="address"></textarea><br><br>
+        <label for="">Hospital Location</label>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31088.715388113116!2d80.2090409087056!3d13.093518928632259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52668144d83097%3A0xd2990689d80115fc!2sBillroth%20Cancer%20Center!5e0!3m2!1sen!2sin!4v1723613091557!5m2!1sen!2sin" width="300" height="250" style="border:1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="four">
+        <h3>
+            Referring to Doctor details
+           </h3>
+           <label for="Doctor">Doctor name</label>
+           <input type="text" name="name" id="name"><br><br>
+           <label for="number">Doctor mobile no</label>
+           <input type="text" name="number" id="number">
+    </div>
+    <div class="five">
+        <input type="submit" value="submit">
+    </div>
+</form>
+</div>
+
+</body>
+</html>

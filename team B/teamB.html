@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team B</title>
+    <style>
+.body{
+   
+   width: 95%;
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   border: 4px solid;
+ }
+ 
+ .item {
+  border: 5px solid;
+   width: 400px;
+   padding: 3px;
+   border: center solid;
+   height: 100%;
+   
+ }
+ 
+ 
+ .first{
+     border-radius: 0%;
+     box-sizing: border-box;
+     background-color: rgb(34, 223, 43);
+     border: 2px solid;
+     border-color:black;
+     padding: 4px;
+     margin: 3px;
+ }
+ .head{
+     background-color: blueviolet;
+     
+ text-align: center;
+ }
+ .second{
+     border-radius: 0%;
+     box-sizing: border-box;
+     background-color: rgb(46, 134, 130);
+     border: 2px solid;
+     border-color: black;
+     padding: 4px;
+     margin: 3px;
+ }
+ .footer{
+   text-align: right;
+   background-color: blanchedalmond;
+   border-radius: 0%;
+     box-sizing: border-box;
+     background-color: pink;
+     border: 2px solid;
+     border-color: black;
+     padding: 4px;
+     margin: 3px;
+ }
+.button{
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 2px;
+    margin-bottom: 4px;
+}
+    </style>
+</head>
+<body>
+    <div class="item">
+        <header class="head"><h1>voter ID</h1></header>
+        
+        <form action="./nav.html">
+            
+        <div class="first">
+            <h3>Personal Details:-</h3>
+        <label for="image">image :</label>
+        <img src="./download.png" width="100px" height="50px" alt=""><br><br>
+        <label for="fname">First name :</label>
+<input type="text" name="fname" id="fname" required placeholder="enter name"><br><br>
+<label for="lname">Last name :</label>
+        <input type="text" name="lname" id="lname" required placeholder="enter name"><br><br>
+        <label for="date">Date of birth </label>
+        <input type="date" name="date" id="date" required><br><br>
+        <label for="cast">Cast</label>
+        <input type="text" name="cast" id="cast" required><br><br>
+        <label for="religion">Religion</label><br><br>
+        <label for="Hindu">Hindu</label>
+        <input type="radio" name="Religion :" id="Hindu" value="Hindu" required>
+        <label for="Christians">Christians</label>
+        <input type="radio" name="Religion :" id="Christians" value="Christians" required>
+        <label for="Muslims">Muslims</label>
+        <input type="radio" name="Religion :" id="Muslims" value="Muslims" required>
+        <label for="Others">Others</label>
+        <input type="radio" name="Religion :" id="Others" value="Others" required><br><br>
+        <label for="Nationality">Nationality</label>
+        <input type="text" name="Nationality" id="Nationality"><br><br>
+        <label for="Disability">Disability:</label>
+        <label for="yes">Yes</label>
+        <input type="radio" name="Disability:" id="yes" value="yes" required>
+        <label for="no">no</label>
+        <input type="radio" name="Disability:" id="no" value="no" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="Number" name="age" id="age" required  min="10" max="100"><br><br>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone"  placeholder="123-456-7890" required><br><br>
+       
+       </div>
+        <div class="second">
+            <h3>Address Details</h3>
+              <label for="house">House:</label>
+              <input type="text" name="house" id="house"><br><br>
+              <label for="Street">Street/Area/Locality:</label>
+              <input type="text" name="Street" id="Street"><br><br>
+              <label for="address">Google Location:</label>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31088.715388113116!2d80.2090409087056!3d13.093518928632259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52668144d83097%3A0xd2990689d80115fc!2sBillroth%20Cancer%20Center!5e0!3m2!1sen!2sin!4v1723613091557!5m2!1sen!2sin" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+              <label for="resistance">Resistance:-</label>
+              <select name="resistance" id="resistance">
+              <option value="town">Town</option>
+              <option value="village">village</option>
+              </select><br><br>
+              <label for="taluk">Taluk</label>
+              <input type="text" name="taluk" id="taluk"><br><br>
+              <label for="pin">Pincode</label>
+              <input type="number" name="pin" id="pin" placeholder="1000000"><br><br>
+              <label for="district">District</label>
+              <select name="district" id="district">
+                <option value="chennai">chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Salem">Salem</option>
+                <option value="Chengalpattu">Chengalpattu</option>
+                <option value="Theni">Theni</option></select><br><br>
+                <label for="Certification">Certification</label>
+             <label for="upload">Community Certification :</label>
+            <input type="file" name="Upload" id="Upload" required><br><br>
+            <label for="upload">Aadhar Card Certification  :</label>
+            <input type="file" name="Upload" id="Upload" required><br><br>
+            <label for="upload">SSLC Marksheet & Transfer Certification  :</label>
+            <input type="file" name="Upload" id="Upload" required><br><br>
+            <label for="upload">HSLC Marksheet & Transfer Certification :</label>
+            <input type="file" name="Upload" id="Upload" required><br><br>
+            </div>
+            <div>
+                <footer class="footer">
+                    <label for="Signature">Signature</label>
+                    <input type="text" name="Signature" id="Signature">
+                </footer>
+            </div>
+            <div class="button">
+            <input type="submit" value="submit" >
+            </div>
+        </div>
+    </form>
+</body>
+</html>
